@@ -42,9 +42,7 @@ if input_text:
 
 # Section 2: Mental Health Predictor
 st.header("Health Indicator")
-st.write(
-    "Enter the details below to predict if you may require mental health treatment."
-)
+st.write("Enter the details below.")
 
 # Load the trained model
 clf = joblib.load("RandomForest_model.pkl")
